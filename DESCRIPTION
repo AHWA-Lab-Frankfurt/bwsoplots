@@ -1,0 +1,19 @@
+Package: plot_functions
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Nikolas",
+           family = "Gestrich",
+           role = c("aut", "cre"),
+           email = "gestrich@uni-frankfurt.de",
+           comment = c(ORCID = "https://orcid.org/0000-0001-6376-1972"))
+Description: FOR INTERNAL USE ONLY! This package provides the most commonly used plotting functions for the "Borrowed Words and Shared Objects" research project. The aim is to ensure a certain amount of visual coherence across the output of the project.
+  The package covers common plots such as scatterplots, ridge plots, area plots etc. It also provides a map background.
+License: use_mit_license()
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+    ggplot2,
+    ggridges
