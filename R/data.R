@@ -51,3 +51,16 @@
 #'
 #' @format ggplot parameters
 "maplayout.relief"
+
+#' gray background elevation data
+#'
+#' A dataset the elevation of point in XYZ coordinates.
+#'
+#' @format A data frame with 477144 rows and 3 variables:
+#' \describe{
+#'   \item{value}{elevation in metres ASL}
+#'   \item{x}{x coordinate}
+#'   \item{y}{y coordinate}
+#' }
+#' @source \url{http://www.naturalearthdata.com}
+"background_gray"

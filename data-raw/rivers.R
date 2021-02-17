@@ -1,4 +1,3 @@
-## code to prepare `rivers` dataset goes here
 ## Create a dataset of rivers and crop it to the study area
 library(dplyr)
 rivers50 <- rnaturalearth::ne_download(scale = 50, type = 'rivers_lake_centerlines', category = 'physical', returnclass = "sf")
