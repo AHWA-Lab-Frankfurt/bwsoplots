@@ -1,4 +1,4 @@
-Package: plot_functions
+Package: bwsoplots
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
@@ -17,3 +17,5 @@ RoxygenNote: 7.1.1
 Imports:
     ggplot2,
     ggridges
+Depends: 
+    R (>= 2.10)
